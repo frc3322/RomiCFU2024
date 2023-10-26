@@ -14,9 +14,10 @@ package frc.robot;
  */
 public final class Constants {
     public static final class DriveConstants {
-        public static final double kP = .3;
+        //Play around with the kP and kD values! (avoid kI)
+        public static final double kP = .05;
         public static final double kI = 0;
-        public static final double kD = .01;
+        public static final double kD = .05;
         public static final double kDriveToleranceInches = .1;
         public static final double kDriveRateToleranceInchesPerS = .005;
     }
